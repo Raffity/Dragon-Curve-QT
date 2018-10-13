@@ -15,5 +15,10 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    ui->openGLWidget->print(ui->spinBox->value());
+    ui->openGLWidget->paintDragon(ui->spinBox->value());
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    ui->openGLWidget->clear();
 }

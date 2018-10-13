@@ -12,7 +12,8 @@ public:
     void initializeGL();
     void paintGL();
     void resizeGL(int w, int h);
-    void print(int k);
+    void paintDragon(int k);
+    void clear();
 
 private:
     int k = 0;
